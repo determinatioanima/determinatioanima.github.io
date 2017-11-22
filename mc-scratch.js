@@ -16,7 +16,7 @@ var statusEnum = Object.freeze({
 var connectionStatus = null;
 
 // load cc_client script 
-$.getScript("https://mojang.github.io/cc-client.js").done(function () {
+$.getScript("http://determinatioanima.github.io/mc-client.js").done(function () {
     console.log("CC Client loaded");
     client = new cc_client(8080);
     // initialize connection status
